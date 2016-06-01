@@ -1,5 +1,5 @@
 {
-  "name": "ghost",
+  "name": "Ghost",
   "version": "0.7.9",
   "description": "Just a blogging platform.",
   "author": "Ghost Foundation",
@@ -13,7 +13,9 @@
     "type": "git",
     "url": "git://github.com/TryGhost/Ghost.git"
   },
-  "bugs": "https://github.com/TryGhost/Ghost/issues",
+  "bugs": {
+    "url": "https://github.com/TryGhost/Ghost/issues"
+  },
   "contributors": "https://github.com/TryGhost/Ghost/graphs/contributors",
   "license": "MIT",
   "main": "./core/index",
@@ -67,7 +69,9 @@
     "sqlite3": "3.1.3",
     "unidecode": "0.1.8",
     "validator": "5.2.0",
-    "xml": "1.0.1"
+    "xml": "1.0.1",
+    "mysql": "2.1.1",
+    "pg": "4.1.1"
   },
   "optionalDependencies": {
     "mysql": "2.1.1",
@@ -92,6 +96,7 @@
     "grunt-mocha-istanbul": "4.0.2",
     "grunt-shell": "1.3.0",
     "grunt-update-submodules": "0.4.1",
+    "gulp": "^3.9.1",
     "istanbul": "0.4.3",
     "matchdep": "1.0.1",
     "mocha": "2.4.5",
